@@ -1,11 +1,22 @@
-{% if recipelist %}
-<ul>
-{% for recipe in recipelist %}
-    <li><a href="{{ recipe.id }}/"> {{ recipe.name }}</a> </li>
-{% endfor %}
-</ul>
-{% else %}
-<p> you haven't added any recipes yet! </p>
-{% endif %}
+{% extends "base.html" %}
+{% block title %}
+Recipe Minder: All Recipes
+{% endblock %}
 
-<a href= "addrecipe/">Create a new recipe</a>
+{% block maincontent %}
+
+<h1> Current Recipes </h1>
+			<p class="lead">Browse below to view current recipes in the
+				database, or <a href="addrecipe/">add your own</a>.</p>
+			{% if recipelist %}
+				<ul>
+				{% for recipe in recipelist %}
+				<li><a href="{{ recipe.id }}/">
+						{{ recipe.name }}</a></li>
+				{% endfor %}
+				</ul>
+			{% else %}
+				<p>You haven't added any recipes yet!</p>
+			{% endif %}
+
+{% endblock %}

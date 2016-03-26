@@ -1,0 +1,24 @@
+[33mcommit ce5d82d5dfaae9f3680e90751c70b65f6f515a54[m
+Merge: f677cb9 724e121
+Author: samruddhisomani <sammysamhy@gmail.com>
+Date:   Sat Mar 26 15:22:50 2016 -0500
+
+    Merge branch 'master' of github.com:samruddhisomani/djangoapp
+
+[33mcommit f677cb92f60dac6a94c070a2ade99ec9c4e56c00[m
+Author: samruddhisomani <sammysamhy@gmail.com>
+Date:   Sat Mar 26 15:18:58 2016 -0500
+
+    first update
+
+[33mcommit ca335cfff88d8642a56c6ffd6be3c377767d084f[m
+Author: samruddhisomani <sammysamhy@gmail.com>
+Date:   Sat Mar 26 15:18:35 2016 -0500
+
+    adding the gitignore
+
+[33mcommit 724e121c828fb53c3d438fdb8801ad0c7b262bb0[m
+Author: Samruddhi Somani <samruddhisomani@users.noreply.github.com>
+Date:   Sat Mar 26 10:50:43 2016 -0500
+
+    Initial commit
